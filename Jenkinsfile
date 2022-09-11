@@ -7,10 +7,10 @@ pipeline {
     stages {
         stage('Build Image') {
             when {
-                branch 'master'  //only run these steps on the master branch
+                branch 'master'  
             }
 
-            // Jenkins Stage to Build the Docker Image
+            
 
         }
 
@@ -19,7 +19,7 @@ pipeline {
                 branch 'master'  //only run these steps on the master branch
             }
             
-            // Jenkins Stage to Publish the Docker Image to Dockerhub or any Docker repository of your choice.
+            
 
         }
     }
