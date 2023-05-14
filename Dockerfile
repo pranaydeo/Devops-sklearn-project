@@ -6,7 +6,7 @@ ADD . .
 WORKDIR /app
 COPY . .
 
-RUN pip install -r requirements.txt
+RUN pip install - requirements.txt
 
 EXPOSE 8000
 
