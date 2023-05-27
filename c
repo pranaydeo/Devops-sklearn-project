@@ -1,7 +1,7 @@
 FROM python:3.7.3-stretch
 
 RUN mkdir /app
-AD
+
 
 WORKDIR /app
 COPY . .
